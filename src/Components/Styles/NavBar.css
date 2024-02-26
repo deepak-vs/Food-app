@@ -1,0 +1,25 @@
+.nav{
+    height: fit-content;
+    padding: 5px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    box-shadow: 1px 1px 2px 2px gray;
+}
+.title-image{
+    width: 18%;
+}
+
+.banner{
+    height: 60vh;
+    background-image: url("src/Components/Images/banner.jpg"); 
+    background-size: cover;
+    background-repeat: none;
+}
+.banner-box{
+    width: 20%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.826);
+    color: white;
+}

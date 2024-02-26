@@ -1,0 +1,19 @@
+.ingred-card{
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 2px grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.ingred-card:hover{
+    transform: scale(1.01);
+    box-shadow: 1px 1px 5px 2px rgb(26, 25, 25);
+}

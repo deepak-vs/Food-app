@@ -1,0 +1,7 @@
+.foodContainer{
+    width: 99vw;
+    margin: auto;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: auto auto;
+}
